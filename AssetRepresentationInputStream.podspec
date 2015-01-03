@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "AssetRepresentationInputStream/*.{h,m}"
   s.public_header_files = "AssetRepresentationInputStream/*.h"
+  s.ios.frameworks = "AssetsLibrary"
 
   s.requires_arc = true
 
